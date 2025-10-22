@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Designing Dashboards – John Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">Amir</a>
+            </div>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+            ☰
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="works.html">Works</a>
+                <a href="blog.html">Blog</a>
+                <a href="https://learnwebdevamir.github.io/cardprofile/">About</a>
+                <a href="https://api.whatsapp.com/send/?phone=6285725362878&text&type=phone_number&app_absent=0">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+  <main class="container">
+    <article class="work-detail">
+      <h1>Membuat desain Artikel</h1>
+      <p class="meta">2020 | Dashboard Design, UI/UX</p>
+
+      <img src="assets/images/Screenshot 2025-10-22 181140.png" alt="Dashboard Design" class="work-cover" />
+
+      <section class="work-description">
+        <h2>Project Overview</h2>
+        <p>
+          Designing Dashboards is a data visualization project that focuses on 
+          clarity, accessibility, and consistency. The main goal was to create 
+          an intuitive dashboard for product analytics with a modern aesthetic.
+        </p>
+
+        <h2>Tools & Technologies</h2>
+        <ul>
+          <li>Figma – for design system and UI layout</li>
+          <li>Adobe Illustrator – for icons and illustrations</li>
+          <li>HTML5 / CSS3 Grid – for front-end layout implementation</li>
+        </ul>
+
+        <h2>Design Process</h2>
+        <p>
+          The process began with researching user needs and defining key metrics
+          that should be displayed. Wireframes were built in Figma, followed by
+          UI components and color system development.
+        </p>
+
+        <img src="assets/images/work2.jpg" alt="Dashboard Screens" class="work-screenshot" />
+
+        <h2>Final Result</h2>
+        <p>
+          The final dashboard design uses a clean dark interface, modular grid layout,
+          and subtle animations for transitions. It adapts perfectly to both desktop 
+          and tablet screens using responsive design.
+        </p>
+      </section>
+
+      <div class="back-link">
+        <a href="works.html" class="btn-secondary">← Back to Works</a>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="social-links">
+        <a href="#"><img src="assets/images/icons/facebook.png" width="30px" alt="Facebook"></a>
+        <a href="https://www.instagram.com/3irulsssss_/#"><img src="assets/images/icons/instagram.png" width="30px" alt="Instagram"></a>
+        <a href="#"><img src="assets/images/icons/social-media.png" width="30px" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/in/amirul-madjid-ibrahim-0b843631b/"><img src="assets/images/icons/linkedin.png" width="30px" alt="LinkedIn"></a>
+    </div>
+    <script>
+            const toggleBtn = document.getElementById("menu-toggle");
+            const navMenu = document.getElementById("nav-menu");
+
+            toggleBtn.addEventListener("click", () => {
+                navMenu.classList.toggle("active");
+            });
+        </script>
+    <p>Copyright ©2025. All rights reserved.</p>
+  </footer>
+</body>
+</html>

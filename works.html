@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Works – John Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">Amir</a>
+            </div>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+            ☰
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="works.html">Works</a>
+                <a href="blog.html">Blog</a>
+                <a href="https://learnwebdevamir.github.io/cardprofile/">About</a>
+                <a href="https://api.whatsapp.com/send/?phone=6285725362878&text&type=phone_number&app_absent=0">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="works-section">
+            <h1>My Works</h1>
+            <p>Here are some of my featured projects and creative work samples.</p>
+
+            <div class="works-grid">
+                <article class="work-card">
+                    <img src="assets/images/Screenshot 2025-10-22 181140.png" alt="Dashboard Design" />
+                    <div class="work-info">
+                        <h3><a href="works-detail.html">Membuat desain Artikel</a></h3>
+                        <span class="tag">2020</span> <span class="category">Dashboard</span>
+                        <p>Tampilan awal dari dasain Artikel</p>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <img src="assets/images/Screenshot 2025-10-22 181659.png" alt="Illustration" />
+                    <div class="work-info">
+                        <h3>Oracle Apex membuat ERD</h3>
+                        <span class="tag">2018</span> <span class="category">Design ERD</span>
+                        <p>Membuat design ERD untuk proses pembuatan Aplikasi di Oracle APEX.</p>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <img src="assets/images/Screenshot 2025-10-22 182554.png" alt="Typography Project" />
+                    <div class="work-info">
+                        <h3>Pelatihan 35 hari tentang Jaringan Komputer</h3>
+                        <span class="tag">2018</span> <span class="category">Jaringan</span>
+                        <p>Membuat dan mempraktekan cara kerja jaringan dan proses pemasangan perangkatnya.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="social-links">
+            <a href="#"><img src="assets/images/icons/facebook.png" width="30px" alt="Facebook"></a>
+            <a href="https://www.instagram.com/3irulsssss_/#"><img src="assets/images/icons/instagram.png" width="30px" alt="Instagram"></a>
+            <a href="#"><img src="assets/images/icons/social-media.png" width="30px" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/in/amirul-madjid-ibrahim-0b843631b/"><img src="assets/images/icons/linkedin.png" width="30px" alt="LinkedIn"></a>
+        </div>
+        <p>Copyright ©2025. All rights reserved.</p>
+        <script>
+            const toggleBtn = document.getElementById("menu-toggle");
+            const navMenu = document.getElementById("nav-menu");
+
+            toggleBtn.addEventListener("click", () => {
+                navMenu.classList.toggle("active");
+            });
+        </script>
+    </footer>
+</body>
+</html>

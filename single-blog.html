@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Blog – John Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">Amir</a>
+            </div>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+            ☰
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="works.html">Works</a>
+                <a href="blog.html">Blog</a>
+                <a href="https://learnwebdevamir.github.io/cardprofile/">About</a>
+                <a href="https://api.whatsapp.com/send/?phone=6285725362878&text&type=phone_number&app_absent=0">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="single-blog">
+            <h1>Making a design system from scratch</h1>
+            <p class="meta">12 Feb 2020 | Design, Pattern</p>
+
+            <img src="assets/images/apa-itu-design-system-1-haltive-com.jpg" alt="Design System" class="blog-cover" />
+
+            <p>
+                Building a design system is not just about creating UI components.
+                It’s about creating a shared language between design and development
+                teams, maintaining consistency, and improving workflow efficiency.
+            </p>
+
+            <p>
+                The process starts with understanding the product’s design principles,
+                documenting styles and components, and setting up tools for maintenance.
+                Figma and Storybook are great platforms for building scalable systems.
+            </p>
+
+            <h2>1. Foundation</h2>
+            <p>Establish typography, colors, spacing, and core UI elements as tokens.</p>
+
+            <h2>2. Components</h2>
+            <p>Design reusable buttons, cards, inputs, and forms that follow your tokens.</p>
+
+            <h2>3. Documentation</h2>
+            <p>Write clear usage guidelines and version updates for your design system.</p>
+
+            <p>By the end, your team will have a unified visual language and faster workflow.</p>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="social-links">
+            <a href="#"><img src="assets/images/icons/facebook.png" width="30px" alt="Facebook"></a>
+            <a href="https://www.instagram.com/3irulsssss_/#"><img src="assets/images/icons/instagram.png" width="30px" alt="Instagram"></a>
+            <a href="#"><img src="assets/images/icons/social-media.png" width="30px" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/in/amirul-madjid-ibrahim-0b843631b/"><img src="assets/images/icons/linkedin.png" width="30px" alt="LinkedIn"></a>
+        </div>
+        <script>
+            const toggleBtn = document.getElementById("menu-toggle");
+            const navMenu = document.getElementById("nav-menu");
+
+            toggleBtn.addEventListener("click", () => {
+                navMenu.classList.toggle("active");
+            });
+        </script>
+        <p>Copyright ©2025. All rights reserved.</p>
+    </footer>
+</body>
+</html>

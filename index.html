@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John – Creative Technologist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">Amir</a>
+            </div>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+            ☰
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="works.html">Works</a>
+                <a href="blog.html">Blog</a>
+                <a href="https://learnwebdevamir.github.io/cardprofile/">About</a>
+                <a href="https://api.whatsapp.com/send/?phone=6285725362878&text&type=phone_number&app_absent=0">Contact</a>
+            </nav>
+        </div>
+    </header>
+  
+  <main>
+    <section class="hero container grid-2">
+      <div class="hero-text">
+        <h1>Hi, Saya Amirul,<br>Web Developer</h1>
+        <p>Saya sangat senang membuat web yang berguna untuk masyarakat dan saya juga sangat menyukai bahasa pemrograman HTML dan JAVA</p>
+        <button class="btn-primary">Download Resume</button>
+      </div>
+      <div class="hero-img">
+        <img src="assets/images/WhatsApp Image 2025-10-22 at 17.41.24_82a1e885.jpg" alt="foto Amirul" />
+      </div>
+    </section>
+
+    <section class="recent-posts">
+      <div class="container">
+        <div class="section-header">
+          <h2>Recent Posts</h2>
+          <a href="blog.html" class="view-all">View all</a>
+        </div>
+        <div class="posts-grid">
+          <article class="post-card">
+            <h3>Membuat dan mendesain aplikasi admin dengan menggunakan Apache NetBeans</h3>
+            <p class="meta">12 Feb 2020 | NetBeans, Design, Java </p>
+            <p>Membuat produk dimana, ini nantui akan sangat berguna untuk pengelolaan yang juga berbasis database dalam membuat web. </p>
+          </article>
+          <article class="post-card">
+            <h3>Membuat web Artikel dengan HTML dan CSS</h3>
+            <p class="meta">12 Feb 2020 | Design, HTML,C</p>
+            <p>Bagaimana membuat web artikel dengan HTML dan CSS dengan tampilan yang efisien.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-works container">
+      <h2>Featured Works</h2>
+      <div class="works-grid">
+        <article class="work-card">
+          <img src="assets/images/Screenshot 2025-10-22 181140.png" alt="Designing Dashboards" />
+          <div class="work-info">
+            <h3>Membuat desain Artikel</h3>
+            <span class="tag">2020</span> <span class="category">Dashboard</span>
+            <p>Tampilan awal dari dasain Artikel.</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="assets/images/Screenshot 2025-10-22 181659.png" alt="Design ERD" />
+          <div class="work-info">
+            <h3>Oracle Apex membuat ERD</h3>
+            <span class="tag">2018</span> <span class="category">Design ERD</span>
+            <p>Membuat design ERD untuk proses pembuatan Aplikasi di Oracle APEX.</p>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <img src="assets/images/Screenshot 2025-10-22 182554.png" alt="hasil pelatihan" />
+          <div class="work-info">
+            <h3>Pelatihan 35 hari tentang Jaringan Komputer</h3>
+            <span class="tag">2018</span> <span class="category">Jaringan</span>
+            <p>Membuat dan mempraktekan cara kerja jaringan dan proses pemasangan perangkatnya.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="social-links">
+      <a href="#"><img src="assets/images/icons/facebook.png" width="30px" alt="Facebook"></a>
+      <a href="https://www.instagram.com/3irulsssss_/#"><img src="assets/images/icons/instagram.png" width="30px" alt="Instagram"></a>
+      <a href="#"><img src="assets/images/icons/social-media.png" width="30px" alt="Twitter"></a>
+      <a href="https://www.linkedin.com/in/amirul-madjid-ibrahim-0b843631b/"><img src="assets/images/icons/linkedin.png" width="30px" alt="LinkedIn"></a>
+    </div>
+    <script>
+            const toggleBtn = document.getElementById("menu-toggle");
+            const navMenu = document.getElementById("nav-menu");
+
+            toggleBtn.addEventListener("click", () => {
+                navMenu.classList.toggle("active");
+            });
+        </script>
+    <p>Copyright ©2025. All rights reserved.</p>
+  </footer>
+</body>
+</html>
